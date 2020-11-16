@@ -677,7 +677,7 @@ async def clear_error( ctx, error ):
 
 #Connect
 
-token = open( 'token.txt', 'r' ).readline()
+token = open( 'D:\\Python\\Tokens\\token.txt', 'r' ).readline()
 
 client.run( token )
 
