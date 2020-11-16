@@ -477,9 +477,9 @@ async def help( ctx ):
 	emb.add_field( name = '{}anecdot @user'.format( '$' ), value = 'Попросить рассказать анекдот' )
 	emb.add_field( name = '{}call @user'.format( '$' ), value = 'Позвать пользователя' )
 	emb.add_field( name = '{}shit @user'.format( '$' ), value = 'Оскорбить пользователя' )
-	emb.add_field( name = 'Созвать сервер'.format( '$' ), value = 'Созывает весь сервер' )
-	emb.add_field( name = 'Преисполнение'.format( '$' ), value = 'Преисполниться в совём познании' )
-	emb.add_field( name = 'анекдот'.format( '$' ), value = 'Бот расскажет анекдот' )
+	emb.add_field( name = '{}Созвать сервер'.format( '$' ), value = 'Созывает весь сервер' )
+	emb.add_field( name = '{}Преисполнение'.format( '$' ), value = 'Преисполниться в совём познании' )
+	emb.add_field( name = '{}анекдот'.format( '$' ), value = 'Бот расскажет анекдот' )
 	
 
 
@@ -507,9 +507,9 @@ async def help_admin( ctx ):
 	emb.add_field( name = '{}anecdot @user'.format( '$' ), value = 'Попросить рассказать анекдот' )
 	emb.add_field( name = '{}call @user'.format( '$' ), value = 'Позвать пользователя' )
 	emb.add_field( name = '{}shit @user'.format( '$' ), value = 'Оскорбить пользователя' )
-	emb.add_field( name = 'Созвать сервер'.format( '$' ), value = 'Созывает весь сервер' )
-	emb.add_field( name = 'анекдот'.format( '$' ), value = 'Бот расскажет анекдот' )
-	emb.add_field( name = 'Преисполнение'.format( '$' ), value = 'Преисполниться в совём познании' )
+	emb.add_field( name = '{}Созвать сервер'.format( '$' ), value = 'Созывает весь сервер' )
+	emb.add_field( name = '{}анекдот'.format( '$' ), value = 'Бот расскажет анекдот' )
+	emb.add_field( name = '{}Преисполнение'.format( '$' ), value = 'Преисполниться в совём познании' )
 
 
 
