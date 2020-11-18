@@ -545,6 +545,7 @@ async def time( ctx, member = discord.Member ):
 async def call( ctx, member: discord.Member):
 	await member.send( f'{ member.mention }! Тебя вызывает - { ctx.author.mention } ' )
 
+
 @client.command( pass_context = True )
 async def fuck( ctx, member: discord.Member ):
 	await member.send( f'{ member.mention }! Тебя послал нахуй - { ctx.author.mention }' )
