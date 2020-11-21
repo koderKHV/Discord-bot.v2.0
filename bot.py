@@ -568,8 +568,6 @@ async def hello( ctx, member: discord.Member ):
 
 
 
-
-
 #Role
 
 @client.event
