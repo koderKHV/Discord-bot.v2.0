@@ -370,10 +370,10 @@ async def on_message( message ):
 		await message.channel.send(random.choice(list))
 
 	if msg in hello_words:
-		await message.channel.send( 'Привет! Рады видеть тебя на нашем сервере!' )
+		await message.channel.send( 'Привет! Как дела?!' )
 
 	if msg in answer_words:
-		await message.channel.send( 'Напиши в чат команду "!help"' )
+		await message.channel.send( 'Напиши в чат команду "$help"' )
 
 	if msg in goodbye_words:
 		await message.channel.send( 'Пока! Удачи тебе!' )
