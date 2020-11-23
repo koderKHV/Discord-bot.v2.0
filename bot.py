@@ -542,27 +542,27 @@ async def time( ctx, member = discord.Member ):
 
 #Interaction
 @client.command( pass_context = True )
-async def $call( ctx, member: discord.Member):
+async def call( ctx, member: discord.Member):
 	await member.send( f'{ member.mention }! Тебя вызывает - { ctx.author.mention } ' )
 
 @client.command( pass_context = True )
-async def $fuck( ctx, member: discord.Member ):
+async def fuck( ctx, member: discord.Member ):
 	await member.send( f'{ member.mention }! Тебя послал нахуй - { ctx.author.mention }' )
 	
 @client.command( pass_context = True )
-async def $shit( ctx, member: discord.Member ):
+async def shit( ctx, member: discord.Member ):
 	await member.send( f'{ member.mention }! Он - { ctx.author.mention }, говорит что ты ДИЗЕЛЬНЫЙ ЕБЛАН))' )
 	
 @client.command( pass_context = True )
-async def $anecdot( ctx, member: discord.Member ):
+async def anecdot( ctx, member: discord.Member ):
 	await member.send( f'{ member.mention }! Тебя просят рассказать анекдот в чате канала!' )
 	
 @client.command( pass_context = True )
-async def $send_a( ctx ):
+async def send_a( ctx ):
 	await ctx.author.send( 'Привет, ты ДИЗЕЛЬНЫЙ ЕБЛАН!' )
 
 @client.command( pass_context = True )
-async def $hello( ctx, member: discord.Member ):
+async def hello( ctx, member: discord.Member ):
 	await member.send( f'{ member.mention }! Привет от - { ctx.author.mention }' )
 
 
